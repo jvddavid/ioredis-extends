@@ -15,6 +15,23 @@
     "hexpireat",
     "ttl"
   ],
+  "author": {
+    "name": "João Victor Davi de Oliveira",
+    "email": "j.victordavid2@gmail.com",
+    "url": "https://github.com/jvddavid/ioredis-extends"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jvddavid/ioredis-extends.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jvddavid/ioredis-extends/issues"
+  },
+  "homepage": "https://github.com/jvddavid/ioredis-extends",
+  "engines": {
+    "node": ">=18",
+    "npm": ">=8"
+  },
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
