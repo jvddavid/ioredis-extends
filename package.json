@@ -77,5 +77,8 @@
     "test:watch": "vitest"
   },
   "dependencies": {},
-  "optionalDependencies": {}
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "ioredis": ">=5.0.0"
+  }
 }
