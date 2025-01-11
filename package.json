@@ -69,7 +69,7 @@
     "prepublishOnly": "npm run type:check && npm run lint && npm run build && npm run test",
     "start": "node dist/index.mjs",
     "type:check": "tsc --noEmit",
-    "build": "pkgroll --clean-dist --minify --target=es2023 --target=node20",
+    "build": "pkgroll --clean-dist --minify --target=es2021 --target=node18",
     "lint": "eslint src tests",
     "lint:fix": "eslint --fix src tests",
     "dev": "tsx --watch src/index.ts",
